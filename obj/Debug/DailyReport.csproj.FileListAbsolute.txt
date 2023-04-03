@@ -1,0 +1,17 @@
+C:\Users\CDK\source\repos\DailyReport\bin\Debug\DailyReport.exe.config
+C:\Users\CDK\source\repos\DailyReport\bin\Debug\DailyReport.exe
+C:\Users\CDK\source\repos\DailyReport\bin\Debug\DailyReport.pdb
+C:\Users\CDK\source\repos\DailyReport\obj\Debug\DailyReport.csproj.AssemblyReference.cache
+C:\Users\CDK\source\repos\DailyReport\obj\Debug\MainWindow.g.cs
+C:\Users\CDK\source\repos\DailyReport\obj\Debug\App.g.cs
+C:\Users\CDK\source\repos\DailyReport\obj\Debug\DailyReport_MarkupCompile.cache
+C:\Users\CDK\source\repos\DailyReport\obj\Debug\DailyReport_MarkupCompile.lref
+C:\Users\CDK\source\repos\DailyReport\obj\Debug\MainWindow.baml
+C:\Users\CDK\source\repos\DailyReport\obj\Debug\DailyReport.g.resources
+C:\Users\CDK\source\repos\DailyReport\obj\Debug\DailyReport.Properties.Resources.resources
+C:\Users\CDK\source\repos\DailyReport\obj\Debug\DailyReport.csproj.GenerateResource.cache
+C:\Users\CDK\source\repos\DailyReport\obj\Debug\DailyReport.csproj.CoreCompileInputs.cache
+C:\Users\CDK\source\repos\DailyReport\obj\Debug\DailyReport.exe
+C:\Users\CDK\source\repos\DailyReport\obj\Debug\DailyReport.pdb
+C:\Users\CDK\source\repos\DailyReport\obj\Debug\page1.g.cs
+C:\Users\CDK\source\repos\DailyReport\obj\Debug\page1.baml

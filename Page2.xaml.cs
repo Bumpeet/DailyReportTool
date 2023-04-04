@@ -16,18 +16,13 @@ using System.Windows.Shapes;
 namespace DailyReport
 {
     /// <summary>
-    /// Interaction logic for Page1.xaml
+    /// Interaction logic for Page2.xaml
     /// </summary>
-    public partial class Page1 : Page
+    public partial class Page2 : Page
     {
-        public Page1()
+        public Page2()
         {
             InitializeComponent();
-        }
-
-        private void button_Click(object sender, RoutedEventArgs e)
-        {
-            this.NavigationService.Navigate(new Page2());
         }
     }
 }

@@ -15,3 +15,23 @@ C:\Users\CDK\source\repos\DailyReport\obj\Debug\DailyReport.exe
 C:\Users\CDK\source\repos\DailyReport\obj\Debug\DailyReport.pdb
 C:\Users\CDK\source\repos\DailyReport\obj\Debug\page1.g.cs
 C:\Users\CDK\source\repos\DailyReport\obj\Debug\page1.baml
+C:\Users\pavan\Documents\Visual Studio 2022\DailyReportTool\obj\Debug\DailyReport.csproj.AssemblyReference.cache
+C:\Users\pavan\Documents\Visual Studio 2022\DailyReportTool\obj\Debug\DailyReport.csproj.SuggestedBindingRedirects.cache
+C:\Users\pavan\Documents\Visual Studio 2022\DailyReportTool\obj\Debug\MainWindow.g.cs
+C:\Users\pavan\Documents\Visual Studio 2022\DailyReportTool\obj\Debug\Page1.g.cs
+C:\Users\pavan\Documents\Visual Studio 2022\DailyReportTool\obj\Debug\App.g.cs
+C:\Users\pavan\Documents\Visual Studio 2022\DailyReportTool\obj\Debug\DailyReport_MarkupCompile.cache
+C:\Users\pavan\Documents\Visual Studio 2022\DailyReportTool\obj\Debug\DailyReport_MarkupCompile.lref
+C:\Users\pavan\Documents\Visual Studio 2022\DailyReportTool\bin\Debug\DailyReport.exe.config
+C:\Users\pavan\Documents\Visual Studio 2022\DailyReportTool\bin\Debug\DailyReport.exe
+C:\Users\pavan\Documents\Visual Studio 2022\DailyReportTool\bin\Debug\DailyReport.pdb
+C:\Users\pavan\Documents\Visual Studio 2022\DailyReportTool\obj\Debug\Page2.g.cs
+C:\Users\pavan\Documents\Visual Studio 2022\DailyReportTool\obj\Debug\MainWindow.baml
+C:\Users\pavan\Documents\Visual Studio 2022\DailyReportTool\obj\Debug\Page1.baml
+C:\Users\pavan\Documents\Visual Studio 2022\DailyReportTool\obj\Debug\Page2.baml
+C:\Users\pavan\Documents\Visual Studio 2022\DailyReportTool\obj\Debug\DailyReport.g.resources
+C:\Users\pavan\Documents\Visual Studio 2022\DailyReportTool\obj\Debug\DailyReport.Properties.Resources.resources
+C:\Users\pavan\Documents\Visual Studio 2022\DailyReportTool\obj\Debug\DailyReport.csproj.GenerateResource.cache
+C:\Users\pavan\Documents\Visual Studio 2022\DailyReportTool\obj\Debug\DailyReport.csproj.CoreCompileInputs.cache
+C:\Users\pavan\Documents\Visual Studio 2022\DailyReportTool\obj\Debug\DailyReport.exe
+C:\Users\pavan\Documents\Visual Studio 2022\DailyReportTool\obj\Debug\DailyReport.pdb

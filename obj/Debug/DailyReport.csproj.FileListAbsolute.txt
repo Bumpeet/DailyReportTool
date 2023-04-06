@@ -65,3 +65,5 @@ C:\Users\CDK\source\repos\DailyReportTool\obj\Debug\DailyReport.csproj.CoreCompi
 C:\Users\CDK\source\repos\DailyReportTool\obj\Debug\DailyReport.csproj.CopyComplete
 C:\Users\CDK\source\repos\DailyReportTool\obj\Debug\DailyReport.exe
 C:\Users\CDK\source\repos\DailyReportTool\obj\Debug\DailyReport.pdb
+C:\Users\CDK\source\repos\DailyReportTool\bin\Debug\System.Data.SqlClient.dll
+C:\Users\CDK\source\repos\DailyReportTool\bin\Debug\System.Data.SqlClient.xml

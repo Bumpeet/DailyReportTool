@@ -27,7 +27,7 @@
 
         <!-- Row-1 -->
         <DatePicker x:Name="date" Grid.Row="1" Grid.Column="0" />
-        <ComboBox x:Name="cbDistributor" Grid.Row="1" Grid.Column="1"  />
+        <ComboBox x:Name="selectedDistributor" Grid.Row="1" Grid.Column="1"  />
         <ComboBox x:Name="cbBeat" Grid.Row="1" Grid.Column="2" />
 
         <!-- Row-3 -->

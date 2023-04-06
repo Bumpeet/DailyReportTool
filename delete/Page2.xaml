@@ -1,0 +1,45 @@
+﻿<Page x:Class="DailyReport.Page2"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:DailyReport"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="Page2">
+
+    <Grid Margin="10">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="30"></RowDefinition>
+            <RowDefinition Height="50"></RowDefinition>
+            <RowDefinition Height="50"></RowDefinition>
+            <RowDefinition Height="50"></RowDefinition>
+            <RowDefinition Height="50"></RowDefinition>
+            <RowDefinition Height="70"></RowDefinition>
+        </Grid.RowDefinitions>
+
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="40"></ColumnDefinition>
+
+            <ColumnDefinition Width="150"></ColumnDefinition>
+            <ColumnDefinition Width="150"></ColumnDefinition>
+            <ColumnDefinition Width="150"></ColumnDefinition>
+            <ColumnDefinition Width="150"></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+
+        <TextBlock Grid.Row="0" Grid.Column="1" FontWeight="Bold" TextAlignment="Center" FontSize="20">Dealer Name</TextBlock>
+        <TextBlock Grid.Row="0" Grid.Column="2" FontWeight="Bold" TextAlignment="Center" FontSize="20">Mobile Number</TextBlock>
+        <TextBlock Grid.Row="0" Grid.Column="3" FontWeight="Bold" TextAlignment="Center" FontSize="20">Throughput</TextBlock>
+        <TextBlock Grid.Row="0" Grid.Column="4" FontWeight="Bold" TextAlignment="Center" FontSize="20">Remarks</TextBlock>
+
+        <TextBlock x:Name="tb1" Grid.Row="1" Grid.Column="0" Height="40" FontWeight="Bold" TextAlignment="Center" FontSize="20"  VerticalAlignment="Bottom">1.</TextBlock>
+
+        <TextBox x:Name="tb_11" Grid.Row="1" Grid.Column="1" Margin="20,5"></TextBox>
+
+        <TextBox x:Name="tb_12" Grid.Row="1" Grid.Column="2" Margin="20,5"></TextBox>
+
+        <TextBox x:Name="tb_13"  Grid.Row="1" Grid.Column="3" Margin="20,5"></TextBox>
+
+        <TextBox x:Name="tb_14" Grid.Row="1" Grid.Column="4" Margin="20,5"></TextBox>
+    </Grid>
+</Page>

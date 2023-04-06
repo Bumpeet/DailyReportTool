@@ -35,3 +35,33 @@ C:\Users\pavan\Documents\Visual Studio 2022\DailyReportTool\obj\Debug\DailyRepor
 C:\Users\pavan\Documents\Visual Studio 2022\DailyReportTool\obj\Debug\DailyReport.csproj.CoreCompileInputs.cache
 C:\Users\pavan\Documents\Visual Studio 2022\DailyReportTool\obj\Debug\DailyReport.exe
 C:\Users\pavan\Documents\Visual Studio 2022\DailyReportTool\obj\Debug\DailyReport.pdb
+C:\Users\CDK\source\repos\DailyReportTool\obj\Debug\Views\Page1View.g.cs
+C:\Users\CDK\source\repos\DailyReportTool\obj\Debug\App.g.cs
+C:\Users\CDK\source\repos\DailyReportTool\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\CDK\source\repos\DailyReportTool\obj\Debug\DailyReport_MarkupCompile.cache
+C:\Users\CDK\source\repos\DailyReportTool\obj\Debug\DailyReport_MarkupCompile.lref
+C:\Users\CDK\source\repos\DailyReportTool\obj\Debug\DailyReport.csproj.AssemblyReference.cache
+C:\Users\CDK\source\repos\DailyReportTool\bin\Debug\DailyReport.exe.config
+C:\Users\CDK\source\repos\DailyReportTool\bin\Debug\DailyReport.exe
+C:\Users\CDK\source\repos\DailyReportTool\bin\Debug\DailyReport.pdb
+C:\Users\CDK\source\repos\DailyReportTool\bin\Debug\Caliburn.Micro.Core.dll
+C:\Users\CDK\source\repos\DailyReportTool\bin\Debug\Caliburn.Micro.Platform.Core.dll
+C:\Users\CDK\source\repos\DailyReportTool\bin\Debug\Caliburn.Micro.Platform.dll
+C:\Users\CDK\source\repos\DailyReportTool\bin\Debug\Microsoft.Xaml.Behaviors.dll
+C:\Users\CDK\source\repos\DailyReportTool\bin\Debug\Caliburn.Micro.Core.pdb
+C:\Users\CDK\source\repos\DailyReportTool\bin\Debug\Caliburn.Micro.Core.xml
+C:\Users\CDK\source\repos\DailyReportTool\bin\Debug\Caliburn.Micro.Platform.pdb
+C:\Users\CDK\source\repos\DailyReportTool\bin\Debug\Caliburn.Micro.Platform.xml
+C:\Users\CDK\source\repos\DailyReportTool\bin\Debug\Caliburn.Micro.Platform.Core.pdb
+C:\Users\CDK\source\repos\DailyReportTool\bin\Debug\Caliburn.Micro.Platform.Core.xml
+C:\Users\CDK\source\repos\DailyReportTool\bin\Debug\Microsoft.Xaml.Behaviors.pdb
+C:\Users\CDK\source\repos\DailyReportTool\bin\Debug\Microsoft.Xaml.Behaviors.xml
+C:\Users\CDK\source\repos\DailyReportTool\obj\Debug\App.baml
+C:\Users\CDK\source\repos\DailyReportTool\obj\Debug\Views\Page1View.baml
+C:\Users\CDK\source\repos\DailyReportTool\obj\Debug\DailyReport.g.resources
+C:\Users\CDK\source\repos\DailyReportTool\obj\Debug\DailyReport.Properties.Resources.resources
+C:\Users\CDK\source\repos\DailyReportTool\obj\Debug\DailyReport.csproj.GenerateResource.cache
+C:\Users\CDK\source\repos\DailyReportTool\obj\Debug\DailyReport.csproj.CoreCompileInputs.cache
+C:\Users\CDK\source\repos\DailyReportTool\obj\Debug\DailyReport.csproj.CopyComplete
+C:\Users\CDK\source\repos\DailyReportTool\obj\Debug\DailyReport.exe
+C:\Users\CDK\source\repos\DailyReportTool\obj\Debug\DailyReport.pdb

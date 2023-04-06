@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-C:\Users\pavan\Documents\Visual Studio 2022\DailyReportTool\obj\Debug\
+C:\Users\CDK\source\repos\DailyReportTool\obj\Debug\
 DailyReport
 none
 false
 DEBUG;TRACE
-C:\Users\pavan\Documents\Visual Studio 2022\DailyReportTool\App.xaml
-31886311436
+C:\Users\CDK\source\repos\DailyReportTool\App.xaml
+1-1465672109
 
-71489711634
-13-1310406943
-MainWindow.xaml;Page1.xaml;Page2.xaml;
+81100245692
+201643341861
+Views\Page1View.xaml;
 
 False
 

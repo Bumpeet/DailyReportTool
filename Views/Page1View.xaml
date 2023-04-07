@@ -23,14 +23,19 @@
         <!-- Row-0 -->
         <Label x:Name="label" Content="Pick a date" HorizontalAlignment="Center" VerticalAlignment="Center"/>
         <Label x:Name="label1" Content="Ditributor Name" Grid.Column="1" HorizontalAlignment="Center" VerticalAlignment="Center" />
-        <Label x:Name="label2" Content="Beat Name" Grid.Column="2" />
+        <Label x:Name="label2" Content="Beat Name" Grid.Column="2" HorizontalAlignment="Center" />
 
         <!-- Row-1 -->
-        <DatePicker x:Name="date" Grid.Row="1" Grid.Column="0" />
-        <ComboBox x:Name="selectedDistributor" Grid.Row="1" Grid.Column="1"  />
-        <ComboBox x:Name="cbBeat" Grid.Row="1" Grid.Column="2" />
+        <DatePicker x:Name="date" Margin ="10" Grid.Row="1" Grid.Column="0" />
+        <ComboBox x:Name="cbName" Margin ="10" Grid.Row="1" Grid.Column="1" Width="100" ItemsSource="{Binding Distributors}"
+                  SelectedItem="{Binding Path= SelectedValue, Mode=OneWayToSource}"
+                  DisplayMemberPath="DealerName"/>
 
-        <!-- Row-3 -->
+        <ComboBox x:Name="cbBeat" Margin ="10" Grid.Row="1" Grid.Column="2" Width="100" ItemsSource="{Binding Dealers}" 
+                  SelectedItem="{Binding Path=SelectedValue, Mode=OneWayToSource}"
+                  DisplayMemberPath="Place"/>
+        
+        <!-- Row-2 -->
         <Button x:Name="button" Grid.Row="2" Content="Next" Grid.Column="2"  />
 
     </Grid>

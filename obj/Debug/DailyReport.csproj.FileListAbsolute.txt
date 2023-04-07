@@ -44,15 +44,10 @@ C:\Users\CDK\source\repos\DailyReportTool\obj\Debug\DailyReport.csproj.AssemblyR
 C:\Users\CDK\source\repos\DailyReportTool\bin\Debug\DailyReport.exe.config
 C:\Users\CDK\source\repos\DailyReportTool\bin\Debug\DailyReport.exe
 C:\Users\CDK\source\repos\DailyReportTool\bin\Debug\DailyReport.pdb
-C:\Users\CDK\source\repos\DailyReportTool\bin\Debug\Caliburn.Micro.Core.dll
 C:\Users\CDK\source\repos\DailyReportTool\bin\Debug\Caliburn.Micro.Platform.Core.dll
 C:\Users\CDK\source\repos\DailyReportTool\bin\Debug\Caliburn.Micro.Platform.dll
 C:\Users\CDK\source\repos\DailyReportTool\bin\Debug\Microsoft.Xaml.Behaviors.dll
-C:\Users\CDK\source\repos\DailyReportTool\bin\Debug\Caliburn.Micro.Core.pdb
-C:\Users\CDK\source\repos\DailyReportTool\bin\Debug\Caliburn.Micro.Core.xml
-C:\Users\CDK\source\repos\DailyReportTool\bin\Debug\Caliburn.Micro.Platform.pdb
 C:\Users\CDK\source\repos\DailyReportTool\bin\Debug\Caliburn.Micro.Platform.xml
-C:\Users\CDK\source\repos\DailyReportTool\bin\Debug\Caliburn.Micro.Platform.Core.pdb
 C:\Users\CDK\source\repos\DailyReportTool\bin\Debug\Caliburn.Micro.Platform.Core.xml
 C:\Users\CDK\source\repos\DailyReportTool\bin\Debug\Microsoft.Xaml.Behaviors.pdb
 C:\Users\CDK\source\repos\DailyReportTool\bin\Debug\Microsoft.Xaml.Behaviors.xml
@@ -67,3 +62,6 @@ C:\Users\CDK\source\repos\DailyReportTool\obj\Debug\DailyReport.exe
 C:\Users\CDK\source\repos\DailyReportTool\obj\Debug\DailyReport.pdb
 C:\Users\CDK\source\repos\DailyReportTool\bin\Debug\System.Data.SqlClient.dll
 C:\Users\CDK\source\repos\DailyReportTool\bin\Debug\System.Data.SqlClient.xml
+C:\Users\CDK\source\repos\DailyReportTool\bin\Debug\Caliburn.Micro.dll
+C:\Users\CDK\source\repos\DailyReportTool\bin\Debug\System.Windows.Interactivity.dll
+C:\Users\CDK\source\repos\DailyReportTool\bin\Debug\Caliburn.Micro.xml

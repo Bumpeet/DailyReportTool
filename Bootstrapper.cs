@@ -19,7 +19,7 @@ namespace DailyReport
 
         protected override void OnStartup(object sender, StartupEventArgs e)
         {
-            DisplayRootViewForAsync<Page1ViewModel>();
+            DisplayRootViewFor<Page1ViewModel>();
         }
     }
 

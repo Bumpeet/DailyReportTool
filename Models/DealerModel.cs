@@ -10,8 +10,10 @@ namespace DailyReport.Models
 {
     public class DealerModel
     {
-        public string DealerName { get; set; }
-        public string LastName { get; set; }
+        public int DealerId { get; set; } = 0;
+        public string DealerName { get; set; } = null;
+        public string MobileNo { get; set; } = null;
+        public string Place { get; set; } = null;
     }
 
     public class DataConnect
@@ -26,40 +28,37 @@ namespace DailyReport.Models
 
         }
 
-        public DataTable FetchDistributorData()
+        public DataTable FetchData(String cmd)
         {
             DataTable data = new DataTable();
             using (con)
             {
                 con.Open();
-                using (SqlCommand command = new SqlCommand("select * from Distributors"))
+                using (SqlCommand command = new SqlCommand(cmd, con))
                 {
-                    using (SqlDataReader reader = command.ExecuteReader())
+                    using (SqlDataReader reader = command.ExecuteReader()) 
                     {
                         data.Load(reader);
 
                     }
                 }
 
+
             }
             return data;
         }
 
-        public List<string> FetchDistributorName()
-        {
-            List<string> data = new List<string>();
-            //DataRow[] names;
+        //public List<string> FetchNames(String cmd)
+        //{
+        //    List<string> data = new List<string>();
+        //    DataTable wholeData = this.FetchData(cmd);
 
-            DataTable wholeData = this.FetchDistributorData();
-            //names = wholeData.Select("DistributorName");
-
-            //return names;
-            foreach (DataRow row in wholeData.Rows)
-            {
-                data.Add($"row['DistributorName']");
-            }
-            return data;
+        //    foreach (DataRow row in wholeData.Rows)
+        //    {
+        //        data.Add($"{row["DistributorName"]}");
+        //    }
+        //    return data;
             
-        }
+        //}
     }
 }

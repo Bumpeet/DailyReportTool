@@ -4,6 +4,7 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:DailyReport.Views"
+        xmlns:cal="http://www.caliburnproject.org"
         mc:Ignorable="d"
         Title="Page1View" Height="450" Width="800">
     <Grid Margin="20" >
@@ -12,31 +13,69 @@
             <RowDefinition Height="auto"></RowDefinition>
             <RowDefinition Height="auto"></RowDefinition>
             <RowDefinition Height="auto"></RowDefinition>
+            <RowDefinition Height="auto"></RowDefinition>
+            <RowDefinition Height="auto"></RowDefinition>
+            <RowDefinition Height="auto"></RowDefinition>
+            <RowDefinition Height="auto"></RowDefinition>
         </Grid.RowDefinitions>
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="auto" ></ColumnDefinition>
             <ColumnDefinition Width="auto" ></ColumnDefinition>
-            <ColumnDefinition Width="auto"></ColumnDefinition>
-            <ColumnDefinition/>
+            <ColumnDefinition Width="*"></ColumnDefinition>
         </Grid.ColumnDefinitions>
 
         <!-- Row-0 -->
-        <Label x:Name="label" Content="Pick a date" HorizontalAlignment="Center" VerticalAlignment="Center"/>
-        <Label x:Name="label1" Content="Ditributor Name" Grid.Column="1" HorizontalAlignment="Center" VerticalAlignment="Center" />
-        <Label x:Name="label2" Content="Beat Name" Grid.Column="2" HorizontalAlignment="Center" />
+        <Label x:Name="label" Grid.Row="0" Grid.Column="0" Content="Pick a date" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+        <DatePicker x:Name="date" Margin ="10" Grid.Row="0" Grid.Column="1" />
+        <DataGrid x:Name="Data" Grid.Row="0" Grid.Column="2" Margin="10"  Grid.RowSpan="5"></DataGrid>
 
-        <!-- Row-1 -->
-        <DatePicker x:Name="date" Margin ="10" Grid.Row="1" Grid.Column="0" />
-        <ComboBox x:Name="cbName" Margin ="10" Grid.Row="1" Grid.Column="1" Width="100" ItemsSource="{Binding Distributors}"
-                  SelectedItem="{Binding Path= SelectedValue, Mode=OneWayToSource}"
-                  DisplayMemberPath="DealerName"/>
+        <!-- Row-1                   -->
+        <Label x:Name="label1" Grid.Row="1" Grid.Column="0" Content="Ditributor Name"  HorizontalAlignment="Center" VerticalAlignment="Center" />
 
-        <ComboBox x:Name="cbBeat" Margin ="10" Grid.Row="1" Grid.Column="2" Width="100" ItemsSource="{Binding Dealers}" 
-                  SelectedItem="{Binding Path=SelectedValue, Mode=OneWayToSource}"
-                  DisplayMemberPath="Place"/>
-        
+        <ComboBox x:Name="cbDistributorName" Margin ="10" Grid.Row="1" Grid.Column="1" Width="100" 
+                  ItemsSource="{Binding Distributors}"
+                  SelectedItem="{Binding SelectedDistributor}"
+                  DisplayMemberPath="DistributorName"/>
+
+
         <!-- Row-2 -->
-        <Button x:Name="button" Grid.Row="2" Content="Next" Grid.Column="2"  />
+        <Label x:Name="label2" Grid.Row="2" Grid.Column="0" Content="Beat Name"  HorizontalAlignment="Center" VerticalAlignment="Center" />
+
+        <ComboBox x:Name="cbBeat" Margin ="10" Grid.Row="2" Grid.Column="1" Width="100"
+                  ItemsSource="{Binding Beats}"
+                  SelectedItem ="{Binding SelectedBeat}"
+                  cal:Message.Attach="[Event SelectionChanged] = [Action cbBeat_SelectionChanged($this)]"
+                  />
+
+        <!-- Row-3 -->
+        <Label x:Name="label3" Grid.Row="3" Grid.Column="0" Content="Dealer Name"  HorizontalAlignment="Center" VerticalAlignment="Center" />
+
+        <ComboBox x:Name="cbDealer" Margin ="10" Grid.Row="3" Grid.Column="1" Width="100" 
+                  ItemsSource="{Binding Dealers}" 
+                  SelectedItem="{Binding SelectedDealer}"
+                  DisplayMemberPath="DealerName"
+                  />
+
+        <!-- Row-4 -->
+        <Label x:Name="label4" Grid.Row="4" Grid.Column="0" Content="ThroughPut"  HorizontalAlignment="Center" VerticalAlignment="Center" />
+
+        <TextBox x:Name="throughput" Grid.Row="4" Grid.Column="1" Margin="10" TextAlignment="Center"></TextBox>
+
+        <!-- Row-5 -->
+        <Label x:Name="label5" Grid.Row="5" Grid.Column="0" Content="Remarks"  HorizontalAlignment="Center" VerticalAlignment="Center" />
+
+        <ComboBox x:Name="cbReview" Margin ="10" Grid.Row="5" Grid.Column="1" 
+                  ItemsSource="{Binding Dealers}" 
+                  DisplayMemberPath="Place" >
+        </ComboBox>
+        
+        <!-- Row-6 -->
+        <Button x:Name="addDealerButton" Grid.Row="6" Content="Add Delaer" Grid.ColumnSpan="2" Margin="37,10,37,-74"  />
+       
+        <!-- Row-7 -->
+
+
+
 
     </Grid>
 </Window>

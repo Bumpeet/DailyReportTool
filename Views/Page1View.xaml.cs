@@ -23,5 +23,7 @@ namespace DailyReport.Views
         {
             InitializeComponent();
         }
+
+
     }
 }

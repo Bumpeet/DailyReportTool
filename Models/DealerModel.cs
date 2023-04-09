@@ -10,8 +10,8 @@ namespace DailyReport.Models
 {
     public class DealerModel
     {
-        public int DealerId { get; set; } = 0;
-        public string DealerName { get; set; } = null;
+        public int Id { get; set; } = 0;
+        public string Name { get; set; } = null;
         public string MobileNo { get; set; } = null;
         public string Place { get; set; } = null;
     }
@@ -22,7 +22,7 @@ namespace DailyReport.Models
         public SqlConnection con;
         public DataConnect()
         {
-            conString = "Data Source=ATI-9\\MSSQLSERVER1;Initial Catalog=Rough;Persist Security Info=True;User ID=sa;Password=_056pwjr";
+            conString = "Data Source= localhost\\SQLEXPRESS; Database= DailyReportTool; Integrated Security=True;";//"Data Source=ATI-9\\MSSQLSERVER1;Initial Catalog=Rough;Persist Security Info=True;User ID=sa;Password=_056pwjr";
 
             con = new SqlConnection(conString);
 
